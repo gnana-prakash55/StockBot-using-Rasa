@@ -1,0 +1,80 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- stock_price
+- inquire
+- waste
+entities:
+- stock
+slots:
+  stock:
+    type: text
+responses:
+  utter_greet:
+  - text: Hello!I am StockBOT.
+  utter_intro:
+  - text: I am here to help you to give the current stock price.You can ask me the price with
+      StockID.Like,
+      What is the stock price of AAPL?
+      Tell me the stock of SBIN.NS.
+      the stock of fb.
+  utter_intro2:
+  - text: The data is scraped from Yahoo Finance.
+  utter_intro3:
+  - buttons:
+    - payload: AAPL
+      title: Apple
+    - payload: GOOG
+      title: Google
+    - payload: FB
+      title: Facebook
+    - payload: SBI.NS
+      title: SBI
+    - payload: MSFT
+      title: Microsoft
+    - payload: INFY
+      title: Infosys
+    - payload: TWTR
+      title: Twitter
+    - payload: SBUX
+      title: StarBucks
+    text: Here are some of the Popular Stocks.You can see.
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye.See you!!
+  - text: Good to see you!!
+  utter_iamabot:
+  - text: I am Stockbot.
+  utter_ask_stock:
+  - text: Which stock price you want?
+  - text: For What Stock?
+  - text: Can you tell me the Stock ID to get the price?
+  utter_affirm:
+  - text: Done!!
+  - text: Great!!
+  utter_default:
+  - text: "Sorry can't understand.Please try again!!"
+actions:
+- utter_greet
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- action_stock_price
+- utter_ask_stock
+- utter_affirm
+- utter_intro
+- utter_intro2
+- utter_intro3
+- utter_default
