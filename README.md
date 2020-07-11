@@ -44,3 +44,10 @@ Please ensure that the stockID is correct!
 
 You can also integrate this bot with telegram,slack,facebook messenger and other channels.
 You can refer it here https://rasa.com/docs/rasa/user-guide/messaging-and-voice-channels/
+
+
+Some of the shots of UI
+
+![Test image](UI/cb1.png)
+
+![Test image2](UI/cb2.png)
