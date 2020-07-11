@@ -21,11 +21,7 @@ responses:
   utter_greet:
   - text: Hello!I am StockBOT.
   utter_intro:
-  - text: I am here to help you to give the current stock price.You can ask me the price with
-      StockID.Like,
-      What is the stock price of AAPL?
-      Tell me the stock of SBIN.NS.
-      the stock of fb.
+  - text: I am here to help you to give the current stock price.
   utter_intro2:
   - text: The data is scraped from Yahoo Finance.
   utter_intro3:
