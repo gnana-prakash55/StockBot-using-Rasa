@@ -29,5 +29,18 @@ To chat with the bot in command line
 
 > rasa shell
 
+If you want GUI experience run the following command
+
+> rasa run -m models --enable-api --cors "*" --debug
+
+Now open the index.html and chat with it!!
+
+You can use phrases like,
+- The stock price of AAPL
+- The stock of FB
+- SBUX
+
+Please ensure that the stockID is correct!
+
 You can also integrate this bot with telegram,slack,facebook messenger and other channels.
 You can refer it here https://rasa.com/docs/rasa/user-guide/messaging-and-voice-channels/
