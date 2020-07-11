@@ -48,6 +48,4 @@ You can refer it here https://rasa.com/docs/rasa/user-guide/messaging-and-voice-
 
 Some of the shots of UI
 
-![Test image](UI/cb1.png)
-
 ![Test image2](UI/cb2.png)
