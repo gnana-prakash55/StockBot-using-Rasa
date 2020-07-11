@@ -10,14 +10,12 @@
 
 To run this model create an environment.
 
-Then, You can use 
+Then, You can use these commands to install dependencies.
 > pip install rasa
 
 > pip install beautifulsoup4
 
 > pip install lxml
-
-to install dependencies in your environment.
 
 Then train the model by the command
 
@@ -27,9 +25,7 @@ Run the actions.py to scrape the data from website
 
 > rasa run actions
 
-To chat with the bot
-
-For command line chat
+To chat with the bot in command line
 
 > rasa shell
 
